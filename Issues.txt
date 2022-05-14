@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "G:\Mahmoodev\DeepNewsvendor\train.py", line 123, in <module>
+    loss= discriminative_evaluate(model, test_loader, test_criterion)
+  File "G:\Mahmoodev\DeepNewsvendor\train_utils.py", line 61, in discriminative_evaluate
+    model.eval()
+AttributeError: 'NoneType' object has no attribute 'eval'
